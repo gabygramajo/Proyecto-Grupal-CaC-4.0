@@ -10,7 +10,7 @@
 - *Carrillo Alice.*
 
 ## Temática
-![portada de refugiaditos](./assets/img/readme-cover.jpg)
+![portada de refugiaditos](./assets/img/readme-cover.jpg)  
 Website de **Refugiaditos**, una organización que tiene como misión cuidar a todo tipo de animalito en situación de calle brindando refugio e integrarlos en nuevas familias.
 
 ## Stack
