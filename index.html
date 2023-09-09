@@ -3,38 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./assets/img/favicon-16x16.png" sizes="16x16" />
+  <title>Refugiaditos</title>
+  <!-- font awesome -->
   <script src="https://kit.fontawesome.com/81c4573423.js" crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,700&display=swap" rel="stylesheet">
+  <!-- CSS styles -->
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+  <nav id="navbar">
+    <div class="navbar__toggle-icon">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="navbar__logo">
+      <a href="./" class="logo">
+        Refugiaditos
+      </a>
+    </div>
+
+    <div class="navbar__content-items">
+      <a class="navbar__items" href="./">
+        <i class="fa-solid fa-house"></i>Inicio
+      </a>
+      <a class="navbar__items" href="#">
+        <i class="fa-solid fa-users"></i>Nosotros
+      </a>
+      <a class="navbar__items" href="#">
+        <i class="fa-solid fa-hand-holding-heart"></i>Adoptar
+      </a>
+      <a class="navbar__items" href="#">
+        <i class="fa-solid fa-address-book"></i>Contacto
+      </a>
+      <a class="navbar__items" href="#">
+        <i class="fa-solid fa-hand-holding-dollar"></i>Donaciones
+      </a>
+    </div>
+  </nav>
+
   <header id="header">
 
-    <nav class="navbar">
-      <div class="navbar__toggle-icon">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-
-      <div class="navbar__logo">
-        <img class="logo" src="./assets/img/logo.jpg" alt="Logo de Refugiaditos">
-      </div>
-
-      <div class="navbar__content-items">
-        <a class="navbar__items" href="./">Inicio</a>
-        <a class="navbar__items" href="#">Nosotros</a>
-        <a class="navbar__items" href="#">Adoptar</a>
-        <a class="navbar__items" href="#">Contacto</a>
-        <a class="navbar__items" href="#">Donaciones</a>
-      </div>
-    </nav>
-
     <section class="cover">
-      <h2 class="cover__title">Titulo de la portada</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatibus officia nesciunt ex esse aperiam voluptas dolore architecto soluta reprehenderit. Provident ab, reiciendis numquam eveniet impedit perspiciatis et explicabo ipsum.</p>
-      <!-- <div class="cover__img-container">
-        <img src="https://images.pexels.com/photos/5908726/pexels-photo-5908726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen de portada" width="600">
-      </div> -->
+
+      <article class="cover__article">
+        <h1 class="cover__title">Nuestra misión</h1>
+        <p class="cover__text">
+          Cuidar a aquellas mascotas y animales en situaciones vulnerables y promover a adopción de animales sin refugio.
+          Nuestra misión es brindar asistencia veterinaria al alcance de barrios populares, generar campañas de castraciones, rescatar y brindar asilo a aquellos animales sin hogar y buscarles una familia que los cuide.
+        </p>
+      </article>
+
+      <div class="cover__img-container">
+        <img src="./assets/img/refugiaditos-cover.jpg" alt="imagen de portada">
+      </div>
+      
     </section>
+
   </header>
 
   <main id="main">
@@ -44,8 +73,32 @@
   </main>
 
   <footer id="footer">
+    
+    <section class="social-networks">
+      <h2 class="social-networks__title">Nuestras Redes</h2>
+      <div class="social-networks__items">
+        <a href="#" class="social-networks__item">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="#" class="social-networks__item">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="social-networks__item">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" class="social-networks__item">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+    <div class="footer__text">
+      <p>
+        Proyecto Web CoC 4.0 <br><span class="team19">&#60;Team 19&#62;</span>
+      </p>
+      <a class="Freepik" href="https://www.freepik.es/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_13124485.htm#query=huellas&position=9&from_view=search&track=sph">Imagen de starline</a> en Freepik
+    </div>
 
   </footer>
-  <script src="./assets/js/script.js" type="javascript"></script>
+  <script src="./assets/js/script.js""></script>
 </body>
 </html>
