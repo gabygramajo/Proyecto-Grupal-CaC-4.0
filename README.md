@@ -3,7 +3,6 @@
 **Teacher**: *Alejandro Medici.*
 
 ## Team 19
-- *Quichan Franco Enzo Gabriel.*
 - *Gramajo Gabriel Omar.*
 - *Rodriguez Facundo Nicolas.*
 - *Diaz Leandro.*
