@@ -126,7 +126,8 @@ p {margin: 0;}
   height: auto;
   max-height: 80rem;
   min-height: 57.5rem;
-  padding-top: 1rem;
+  padding: 1rem 0;
+  overflow: hidden;
   /* background-color: var(--antiquewhite); */
 }
 .cover {
@@ -151,6 +152,7 @@ p {margin: 0;}
 }
 .cover__img-container {
   height: fit-content;
+  max-height: 50rem;
   width: 95%;
   border-radius: 1rem;
   overflow: hidden;
@@ -178,7 +180,114 @@ p {margin: 0;}
     background-repeat: repeat;
     background-size: contain;
 }
-
+/* Styles jornadas */
+.jornadas {
+  background-color: var(--blanco);
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.jornadas-title, 
+.ayuda-title,
+.historias-title {
+  width: 100%;
+  color: var(--bg-salmon);
+  /* background-color: var(--blanco); */
+}
+.card {
+  background-color: var(--bg-salmon);
+  max-width: 30rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--blanco);
+}
+.card-title {
+  margin: .8rem 0;
+}
+.map-img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 1rem;
+}
+.card-text{
+  margin-top: .8rem;
+}
+/* styles ayuda */
+.ayuda {
+  background-color: var(--blanco);
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.ayuda-title {
+  margin-bottom: 2rem;
+}
+.ayuda-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.ayuda-link {
+  text-decoration: none;
+  color: transparent;
+}
+.ayuda-box {
+  max-width: 50rem;
+  height: 20rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: grid;
+  place-content: center;
+  background-color: var(--color-maiz);
+}
+.container-title {
+  color: var(--black);
+}
+@media (max-width: 600px) {
+  .ayuda-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ayuda-box {
+    max-width: 100%;
+  }
+}
+/* styles historias */
+.historias {
+  background-color: var(--blanco);
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: justify;
+}
+.historias-title {
+  margin-bottom: 1rem;
+}
+.historias-content {
+  display: flex;
+  flex-direction: column;
+}
+.historias-img {
+  max-width: 60rem;
+  height: 25rem;
+  border-radius: 1rem;
+  background-color: var(--color-maiz);
+}
+.historias-text {
+  padding: 1rem;
+}
+@media (min-width: 600px) {
+  .historias-content {
+    flex-direction: row;
+    align-items: center;
+  }
+  .historias-img, .historias-text {
+    width: calc(50% - 1.6rem);
+  }
+}
 /* Styles footer */
 #footer {
   padding: .5rem;
