@@ -185,11 +185,20 @@ p {margin: 0;}
   background-color: var(--blanco);
   max-width: 100rem;
   margin: 0 auto;
-  padding: 1rem 0;
-  display: flex;
+  padding: 1rem 2rem;
+  /* display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1rem; */
+}
+.card-container {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+  overflow-x: auto; 
+  white-space: nowrap;
 }
 .jornadas-title, 
 .ayuda-title,
@@ -233,7 +242,6 @@ p {margin: 0;}
 }
 .ayuda-link {
   text-decoration: none;
-  color: transparent;
 }
 .ayuda-box {
   max-width: 50rem;
@@ -243,9 +251,32 @@ p {margin: 0;}
   display: grid;
   place-content: center;
   background-color: var(--color-maiz);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+}
+.box-1 {
+  background-image: url(../img/donar-1-min.jpg);
+}
+.box-2 {
+  background-image: url(../img/donar-2-min.jpg);
+}
+.box-3 {
+  background-image: url(../img/donar-3-min.jpg);
+}
+.box-4 {
+  background-image: url(../img/donar-4-min.jpg);
+}
+.ayuda-box:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
 }
 .container-title {
-  color: var(--black);
+  color: var(--blanco);
+  background-color: rgba(0, 0, 0, .5);
+  padding: .4rem;
+  border-radius: 1rem;
 }
 @media (max-width: 600px) {
   .ayuda-container {
@@ -275,6 +306,10 @@ p {margin: 0;}
   height: 25rem;
   border-radius: 1rem;
   background-color: var(--color-maiz);
+  background-image: url(../img/historia-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .historias-text {
   padding: 1rem;
