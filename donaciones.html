@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
+    <meta name="description" content="Refugiaditos organización social sin fines de lucros"/>
+    <meta name="keywords" content="refugio de animales, castraciones, rescate de animales, adopción de mascotas" />
+    <meta name="author" content="@RodriguezFacundoNicolas, @CarrilloAlice, @GramajoGabrielOmar, @DiazLeandro" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/81c4573423.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,700&display=swap" rel="stylesheet">
+    <title>Donaciones | Refugiaditos</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="bg">
+    <nav id="navbar">
+      <div class="navbar__toggle-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="navbar__logo">
+        <a href="./" class="logo"> Refugiaditos </a>
+      </div>
+
+      <div class="navbar__content-items">
+        <a class="navbar__items" href="./index.html">
+          <i class="fa-solid fa-house"></i>Inicio
+        </a>
+        <a class="navbar__items" href="./about.html">
+          <i class="fa-solid fa-users"></i>Nosotros
+        </a>
+        <a class="navbar__items" href="#">
+          <i class="fa-solid fa-hand-holding-heart"></i>Adoptar
+        </a>
+        <a class="navbar__items" href="./contacto.html">
+          <i class="fa-solid fa-address-book"></i>Contacto
+        </a>
+        <a class="navbar__items" href="./donaciones.html">
+          <i class="fa-solid fa-hand-holding-dollar"></i>Donaciones
+        </a>
+      </div>
+    </nav>
+
+    <div class="formulario mx-auto p-2">
+        <h1 class="donaciones-h1 mt-2 mb-3">Formulario de Donación</h1>
+
+        <form method="post">
+          <div class="form-group input-group-lg p-2">
+            <label class="h2" for="nombre" class="form__titulos">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo">
+          </div>
+
+          <div class="form-group input-group-lg p-2">
+            <label class="h2" for="correo"  class="form__titulos">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+          </div>
+
+          <div class="form-group p-2">
+            <label class="h2" for="tipoDeDonacion" class="form__titulos">Tipo de Donación:</label>
+            <select class="form-select form-select-lg" id="tipoDeDonacion" aria-label="select tipo de donacion">
+              <option value="1" selected>Ayuda económica</option>
+              <option value="2">Insúmos</option>
+              <option value="3">Donar una castración</option>
+            </select>
+          </div>
+
+          <div class="form-group input-group-lg p-2">
+            <label class="h2" for="monto" class="form__titulos">Monto de Donación:</label>
+            <input type="number" class="form-control" id="monto" placeholder="Ingrese el monto que desea donar">
+          </div>
+          
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label form__subtitulos" for="flexCheckDefault">
+              Donación anónima
+            </label>
+          </div>
+          
+          <div class="btn__form">
+            <button type="submit" class="navbar__items">Donar</button>
+          </div>
+        </form>
+      </div>
+      
+
+    <footer id="footer">
+    
+        <section class="social-networks">
+          <h2 class="social-networks__title">Nuestras Redes</h2>
+          <div class="social-networks__items">
+            <a href="#" class="social-networks__item">
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#" class="social-networks__item">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="social-networks__item">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-networks__item">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </section>
+        <div class="footer__text">
+          <p>
+            Proyecto Web CoC 4.0 <br><span class="team19">&#60;Team 19&#62;</span>
+          </p>
+          <a class="Freepik" href="https://www.freepik.es/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_13124485.htm#query=huellas&position=9&from_view=search&track=sph">Imagen de starline</a> en Freepik
+        </div>
+    
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
