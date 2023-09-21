@@ -354,8 +354,39 @@ p {margin: 0;}
   font-weight: bold;
   color: var(--color-crema);
 }
-/* fonts sizes:
-Light 300
-Regular 400
-Medium 500
-Bold 700 */
+/* FORMULARIO */
+.bg {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.formulario{
+  width: 100%;
+  max-width: 80rem;
+  margin: 6rem 1rem;
+  padding: 0.625rem;
+  background-color: var(--color-melon);
+  border-radius: 6px;
+  box-shadow: #38383846 0 0 6px;
+}
+.form__titulos{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffff;
+}
+.btn__form{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.7rem;
+}
+.form__subtitulos{
+  color: #fcfcfc;
+}
+label.h2,
+div.h4 {
+  color: var(--blanco);
+}
+.donaciones-h1 {
+  color: var(--blanco);
+}
