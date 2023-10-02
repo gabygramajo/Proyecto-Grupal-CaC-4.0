@@ -41,6 +41,7 @@ p {margin: 0;}
 .fa-solid {
   margin-right: 1rem;
 }
+
 .logo {
   display: block;
   width: fit-content;
@@ -70,9 +71,18 @@ p {margin: 0;}
   width: 100%;
 }
 .navbar__toggle-icon{
+  padding: 0 .4rem;
+  background-color: var(--bg-salmon);
+  border-radius: .6rem;
   position: absolute;
   top: 1rem;
-  left: 1rem;
+  left: .6rem;
+  display: grid;
+  place-content: center;
+}
+.fa-bars {
+  margin-right: 0;
+  color: var(--blanco);
 }
 .navbar__content-items {
   width: 100%;
