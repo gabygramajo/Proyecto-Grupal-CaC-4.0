@@ -36,10 +36,12 @@ img {
   background-color: #FFF5E0;
 }
 #main {
-  padding: 1rem 0 2rem;
+  padding-bottom: 2rem;
 }
 #main h1 {
   margin-bottom: 2rem;
+  color: #F6635C;
+  background-color: #fcfcfc;
 }
 .catalog {
   display: flex;

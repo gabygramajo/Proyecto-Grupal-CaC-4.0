@@ -156,6 +156,11 @@ p {margin: 0;}
   background-color: var(--blanco);
   border-radius: 1rem;
 }
+@media (max-width: 600px) { /*mobile*/
+  .cover__article {
+    padding: 0 0.8rem;
+  }
+}
 .cover__text {
   text-align: justify;
   font-weight: 500;
