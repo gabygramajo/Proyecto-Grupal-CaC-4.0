@@ -5,7 +5,7 @@
 ## Team 19
 - [***Gramajo Gabriel Omar.***](https://github.com/gabygramajo)
 - [***Rodriguez Facundo Nicolas.***](https://github.com/facundo-rod)
-- *Diaz Leandro.*
+- [***Diaz Leandro.***](https://github.com/lmadiaz84)
 - *Carrillo Alice.*
 
 ## Temática
