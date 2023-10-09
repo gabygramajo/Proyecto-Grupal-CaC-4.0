@@ -405,3 +405,9 @@ div.h4 {
 .donaciones-h1 {
   color: var(--blanco);
 }
+#max-text {
+  display: block;
+  text-indent: 1rem;
+  font-size: 1.4rem;
+  color: var(--black);
+}
