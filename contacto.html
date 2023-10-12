@@ -50,23 +50,23 @@
     <div class="formulario mx-auto">
         <form id="form-contact" method="post" autocomplete="on">
             <div class="input-group-lg mb-3 p-2">
-              <label class="h2" for="name" class="form-label form__titulos">Ingrese su nombre</label>
+              <label class="h2" for="name" class="form-label form__titulos">Ingrese su nombre*</label>
               <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ingrese su nombre">
             </div>
             
             
             <div class="input-group-lg mb-3 p-2">
-                <label class="h2" for="lastname" class="form-label form__titulos">Ingrese su Apellido</label>
+                <label class="h2" for="lastname" class="form-label form__titulos">Ingrese su Apellido*</label>
                 <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Ingrese su apellido">
             </div>
 
             <div class="input-group-lg mb-3 p-2">
-                <label class="h2" for="asunto" class="form-label form__titulos">Asunto</label>
+                <label class="h2" for="asunto" class="form-label form__titulos">Asunto*</label>
                 <input type="text" class="form-control" id="asunto" aria-describedby="emailHelp" placeholder="Refugio transitorio">
             </div>
 
             <div class="input-group-lg mb-3 p-2">
-                <label class="h2" for="emailUser" class="form-label form__titulos">Ingrese su correo electronico</label>
+                <label class="h2" for="emailUser" class="form-label form__titulos">Ingrese su correo electronico*</label>
                 <input type="email" class="form-control" id="emailUser" aria-describedby="emailHelp" placeholder="example@gmail.com">
                 <div class="h4" id="emailHelp" class="form__subtitulos">No compartiremos su correo con nadie más</div>
             </div>
@@ -75,7 +75,7 @@
 
             <div class="mb-3 p-2 input-group-lg">
               <label class="h2" for="message" class="form-label form__titulos">
-                Consulta
+                Consulta*
                 <span id="max-text">
                   caracteres disponibles: <span id="contador">500</span>
                 </span>
@@ -83,14 +83,11 @@
               <textarea class="form-control" id="message" name="message"  rows="8" maxlength="500" wrap="soft" placeholder="Describa su consulta"></textarea>
             </div>
     
-        <div class="btn__form">
-
-        <button type="submit" class="navbar__items" id="submit__form">Contactar</button>
-
-
-
-    </div>
-          </form>
+            <div class="btn__form">
+                <button type="reset" class="navbar__items" id="reset__form">reset</button>
+                <button type="submit" class="navbar__items" id="submit__form">Contactar</button>
+            </div>
+        </form>
     </div>
 
 

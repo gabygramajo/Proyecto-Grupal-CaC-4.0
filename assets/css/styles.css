@@ -395,6 +395,14 @@ p {margin: 0;}
   justify-content: flex-end;
   margin-right: 1.7rem;
 }
+#reset__form {
+  margin-right: 1rem;
+}
+button[type="reset"],
+button[type="submit"] {
+  border-color: var(--color-crema);
+}
+
 .form__subtitulos{
   color: #fcfcfc;
 }
@@ -404,6 +412,10 @@ div.h4 {
 }
 .donaciones-h1 {
   color: var(--blanco);
+}
+label[for="donacion-anonima"] {
+  margin-left: 2rem;
+  font-size: 1.4rem;
 }
 #max-text {
   display: block;
