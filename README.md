@@ -1,4 +1,4 @@
-# Proyecto Grupal CoC 4.0 2023
+# Proyecto Grupal CaC 4.0 2023
 **Comisión**: 23505 - Python FULL STACK.  
 **Teacher**: *Alejandro Medici.*
 
